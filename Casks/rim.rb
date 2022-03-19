@@ -6,7 +6,6 @@ cask "rim" do
   name "gaborcsardi/rim"
   desc "The R Installation Manager"
   homepage "https://github.com/gaborcsardi/rim"
-  license "MIT"
 
   app ""
 end
