@@ -1,4 +1,4 @@
-cask "gaborcsardirim" do
+cask "rim" do
   version "0.2.0"
   sha256 "a673fa6b4be75c1f991407a89aad62fbb1035567cb6f40974d771dd4c5f3ffb0"
 
