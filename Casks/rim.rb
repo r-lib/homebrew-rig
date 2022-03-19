@@ -7,5 +7,21 @@ cask "rim" do
   desc "The R Installation Manager"
   homepage "https://github.com/gaborcsardi/rim"
 
-  app ""
+  depends_on macos: ">= :el_capitan"
+
+  pkg "rim-#{version}-macOS-x86_64.pkg"
+
+  uninstall pkgutil: [
+              "com.gaborcsardi.rim"
+            ],
+
+            delete:  [
+              "/opt/homebrew/etc/bash_completion.d/rim.bash",
+              "/usr/local/bin/rim",
+              "/usr/local/share/zsh/site-functions/_rim"
+            ]
+
+  caveats do
+    files_in_usr_local
+  end
 end
