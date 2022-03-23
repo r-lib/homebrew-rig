@@ -1,11 +1,11 @@
 cask "rim" do
-  version "0.2.0"
+  version "0.2.1"
 
   if Hardware::CPU.intel?
-    sha256 "a673fa6b4be75c1f991407a89aad62fbb1035567cb6f40974d771dd4c5f3ffb0"
+    sha256 "dc5a73b55c99abd890695d8e03fc4f2f089f8c7e971c29bc5b1a5cbacb7a21a7"
     url "https://github.com/gaborcsardi/rim/releases/download/v#{version}/rim-#{version}-macOS-x86_64.pkg"
   else
-    sha256 "8bd39681bd7fa2a0b519afabd1219d04eeff640837227b0f44c4fa067eb0e935"
+    sha256 "5c781d65a18fcfd687a815de7507f014cdf6c159a0c10fe44fe807a9286d236a"
     url "https://github.com/gaborcsardi/rim/releases/download/v#{version}/rim-#{version}-macOS-arm64.pkg"
   end
 
