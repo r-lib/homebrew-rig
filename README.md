@@ -1,3 +1,3 @@
-## Homebrew tap rim
+## Homebrew tap rig
 
-See more at https://github.com/gaborcsardi/rim
+See more at https://github.com/r-lib/rig
