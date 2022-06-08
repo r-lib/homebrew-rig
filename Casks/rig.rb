@@ -1,11 +1,11 @@
 cask "rig" do
-  version "0.4.0"
+  version "0.4.1"
 
   if Hardware::CPU.intel?
-    sha256 "0c7f7d8058191adfd79cfd743730e812bf7d49ff7e7da97e974974e12a55161e"
+    sha256 "c734a9a9350b9b4184678dc6878902dc0100404b1994de7318a511a2f5eb63b5"
     url "https://github.com/r-lib/rig/releases/download/v#{version}/rig-#{version}-macOS-x86_64.pkg"
   else
-    sha256 "cb494597558d2c1dd2e0f4b6ae69e398d674438ac42909a9c028086a745aac34"
+    sha256 "7966db1381e150f9dd80082d90be7b78c9f7eea75b27d10a045e1e5d2b39b1b2"
     url "https://github.com/r-lib/rig/releases/download/v#{version}/rig-#{version}-macOS-arm64.pkg"
   end
 
