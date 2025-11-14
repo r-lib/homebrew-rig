@@ -13,8 +13,6 @@ cask "rim" do
   desc "The R Installation Manager"
   homepage "https://github.com/gaborcsardi/rim"
 
-  depends_on macos: ">= :el_capitan"
-
   if Hardware::CPU.intel?
     pkg "rim-#{version}-macOS-x86_64.pkg"
   else
