@@ -13,8 +13,6 @@ cask "rig" do
   desc "The R Installation Manager"
   homepage "https://github.com/r-lib/rig"
 
-  depends_on macos: ">= :el_capitan"
-
   if Hardware::CPU.intel?
     pkg "rig-#{version}-macOS-x86_64.pkg"
   else
